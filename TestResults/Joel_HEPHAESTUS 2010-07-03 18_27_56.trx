@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="807ebfee-2544-4c9a-b0b2-dd4305fdfb28" name="Joel@HEPHAESTUS 2010-07-03 18:27:56" runUser="HEPHAESTUS\Joel" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="c200a36d-77fd-42e4-b295-c423d24ee4df">
+    <Deployment runDeploymentRoot="Joel_HEPHAESTUS 2010-07-03 18_27_56">
+      <DeploymentItem filename="C:\projects\ThemePark\lib\nunit.framework.dll" />
+      <DeploymentItem filename="C:\projects\ThemePark\lib\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\projects\ThemePark\ThemePark\bin\ThemePark.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-07-03T18:27:56.2098000-04:00" queuing="2010-07-03T18:27:57.0528000-04:00" start="2010-07-03T18:27:57.1368000-04:00" finish="2010-07-03T18:27:57.7628000-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="4e51f382-7876-2b5a-e0b0-e40cf8bc7437">
+      <Execution id="4610e64b-e7a7-4abf-9ac7-bfedffcee313" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="ChangePasswordSuccess_ReturnsView" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="b09f4ca6-7aac-bc97-ff67-c4af994f40ad">
+      <Execution id="6139dcaa-f309-4a3f-8c25-62e1040abf0c" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePasswordSuccess_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Index" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="8520eb5f-e007-0f7e-41e9-f5ed682d7c18">
+      <Execution id="d3393484-9195-460b-abee-30a30bb42ae4" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.HomeControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsRedirectOnSuccess" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="e4ade4d7-5c26-34af-3cc9-9c5bafb2097c">
+      <Execution id="88b9943a-7bec-4e4c-917c-7ad2ce94e500" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfRegistrationFails" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="baa75b7e-36d4-30f6-82de-2985bc091141">
+      <Execution id="db2a214a-25f9-4381-92ab-ebba46e6f03d" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfRegistrationFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="137f7c51-4d44-142b-9b97-54ef8a070da5">
+      <Execution id="0850f1e1-2851-4f47-b4e9-343164061c7d" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Post_ReturnsViewIfChangePasswordFails" />
+    </UnitTest>
+    <UnitTest name="ChangePassword_Get_ReturnsView" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="d7c029f2-348b-7dfd-caba-6b5b3c12860e">
+      <Execution id="81c962e2-7754-4878-bdde-26c98f46662b" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChangePassword_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="3c28da55-a56f-9d06-b15d-e12cce48fcd4">
+      <Execution id="e08dde27-9024-4cba-bebe-0feb2cf76781" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="Register_Get_ReturnsView" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="29867ea9-7ea4-2df7-5d5c-e3ad8cea6f0a">
+      <Execution id="8b1abd71-7b94-4748-b5d9-056ad89b10db" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="4096204b-66af-be7b-2663-d32b1ab4862d">
+      <Execution id="5da855ef-053e-4477-b236-d60dacb4a152" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfModelStateIsInvalid" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="241f0cb7-928c-6f6f-bc61-9aebfed6e968">
+      <Execution id="f2a02a3b-e7ed-43a2-98a3-bbe2c59320ff" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsViewIfValidateUserFails" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="df857051-2a3f-3e8c-6b8a-ce9466b8746c">
+      <Execution id="668b9ba8-6511-49cc-97a3-03995ef1b85e" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsViewIfValidateUserFails" />
+    </UnitTest>
+    <UnitTest name="LogOff_LogsOutAndRedirects" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="211fe58b-5b31-a76f-f160-75b4e75d14b3">
+      <Execution id="6db2484f-6298-4482-b270-9910a876dd9e" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOff_LogsOutAndRedirects" />
+    </UnitTest>
+    <UnitTest name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="5a504ee4-8fc5-23ee-348d-a1086d7bfa51">
+      <Execution id="b40e1a3a-941a-42d8-a096-0958d83c904c" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" />
+    </UnitTest>
+    <UnitTest name="LogOn_Get_ReturnsView" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="c52418e2-9ce8-1eaa-d4aa-f63deadc8c30">
+      <Execution id="afebfbd9-8707-46dc-b792-2098a570deeb" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LogOn_Get_ReturnsView" />
+    </UnitTest>
+    <UnitTest name="Register_Post_ReturnsRedirectOnSuccess" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="60fe42db-d2b8-d0e4-6ed1-3bb0d3e16bf6">
+      <Execution id="ec72c945-eb5b-47eb-9b6c-c7599311ab01" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.AccountControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Register_Post_ReturnsRedirectOnSuccess" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\projects\themepark\themepark.tests\bin\debug\themepark.tests.dll" id="d5f5cd1e-a4d6-77bf-7d95-ff6459d0dbde">
+      <Execution id="0e607590-21d9-4dad-8367-29a8e913011b" />
+      <TestMethod codeBase="C:/projects/ThemePark/ThemePark.Tests/bin/Debug/ThemePark.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ThemePark.Tests.Controllers.HomeControllerTest, ThemePark.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="137f7c51-4d44-142b-9b97-54ef8a070da5" executionId="0850f1e1-2851-4f47-b4e9-343164061c7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="211fe58b-5b31-a76f-f160-75b4e75d14b3" executionId="6db2484f-6298-4482-b270-9910a876dd9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="241f0cb7-928c-6f6f-bc61-9aebfed6e968" executionId="f2a02a3b-e7ed-43a2-98a3-bbe2c59320ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29867ea9-7ea4-2df7-5d5c-e3ad8cea6f0a" executionId="8b1abd71-7b94-4748-b5d9-056ad89b10db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c28da55-a56f-9d06-b15d-e12cce48fcd4" executionId="e08dde27-9024-4cba-bebe-0feb2cf76781" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4096204b-66af-be7b-2663-d32b1ab4862d" executionId="5da855ef-053e-4477-b236-d60dacb4a152" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e51f382-7876-2b5a-e0b0-e40cf8bc7437" executionId="4610e64b-e7a7-4abf-9ac7-bfedffcee313" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a504ee4-8fc5-23ee-348d-a1086d7bfa51" executionId="b40e1a3a-941a-42d8-a096-0958d83c904c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60fe42db-d2b8-d0e4-6ed1-3bb0d3e16bf6" executionId="ec72c945-eb5b-47eb-9b6c-c7599311ab01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8520eb5f-e007-0f7e-41e9-f5ed682d7c18" executionId="d3393484-9195-460b-abee-30a30bb42ae4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b09f4ca6-7aac-bc97-ff67-c4af994f40ad" executionId="6139dcaa-f309-4a3f-8c25-62e1040abf0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="baa75b7e-36d4-30f6-82de-2985bc091141" executionId="db2a214a-25f9-4381-92ab-ebba46e6f03d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c52418e2-9ce8-1eaa-d4aa-f63deadc8c30" executionId="afebfbd9-8707-46dc-b792-2098a570deeb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5f5cd1e-a4d6-77bf-7d95-ff6459d0dbde" executionId="0e607590-21d9-4dad-8367-29a8e913011b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7c029f2-348b-7dfd-caba-6b5b3c12860e" executionId="81c962e2-7754-4878-bdde-26c98f46662b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df857051-2a3f-3e8c-6b8a-ce9466b8746c" executionId="668b9ba8-6511-49cc-97a3-03995ef1b85e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4ade4d7-5c26-34af-3cc9-9c5bafb2097c" executionId="88b9943a-7bec-4e4c-917c-7ad2ce94e500" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0850f1e1-2851-4f47-b4e9-343164061c7d" testId="137f7c51-4d44-142b-9b97-54ef8a070da5" testName="ChangePassword_Post_ReturnsViewIfChangePasswordFails" computerName="HEPHAESTUS" duration="00:00:00.0455037" startTime="2010-07-03T18:27:57.1698000-04:00" endTime="2010-07-03T18:27:57.6128000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0850f1e1-2851-4f47-b4e9-343164061c7d">
+    </UnitTestResult>
+    <UnitTestResult executionId="6db2484f-6298-4482-b270-9910a876dd9e" testId="211fe58b-5b31-a76f-f160-75b4e75d14b3" testName="LogOff_LogsOutAndRedirects" computerName="HEPHAESTUS" duration="00:00:00.0036820" startTime="2010-07-03T18:27:57.6138000-04:00" endTime="2010-07-03T18:27:57.6208000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6db2484f-6298-4482-b270-9910a876dd9e">
+    </UnitTestResult>
+    <UnitTestResult executionId="f2a02a3b-e7ed-43a2-98a3-bbe2c59320ff" testId="241f0cb7-928c-6f6f-bc61-9aebfed6e968" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithReturnUrl" computerName="HEPHAESTUS" duration="00:00:00.0022877" startTime="2010-07-03T18:27:57.6228000-04:00" endTime="2010-07-03T18:27:57.6288000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2a02a3b-e7ed-43a2-98a3-bbe2c59320ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b1abd71-7b94-4748-b5d9-056ad89b10db" testId="29867ea9-7ea4-2df7-5d5c-e3ad8cea6f0a" testName="Register_Get_ReturnsView" computerName="HEPHAESTUS" duration="00:00:00.0005700" startTime="2010-07-03T18:27:57.6298000-04:00" endTime="2010-07-03T18:27:57.6338000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b1abd71-7b94-4748-b5d9-056ad89b10db">
+    </UnitTestResult>
+    <UnitTestResult executionId="e08dde27-9024-4cba-bebe-0feb2cf76781" testId="3c28da55-a56f-9d06-b15d-e12cce48fcd4" testName="Register_Post_ReturnsViewIfModelStateIsInvalid" computerName="HEPHAESTUS" duration="00:00:00.0013123" startTime="2010-07-03T18:27:57.6348000-04:00" endTime="2010-07-03T18:27:57.6388000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e08dde27-9024-4cba-bebe-0feb2cf76781">
+    </UnitTestResult>
+    <UnitTestResult executionId="5da855ef-053e-4477-b236-d60dacb4a152" testId="4096204b-66af-be7b-2663-d32b1ab4862d" testName="LogOn_Post_ReturnsViewIfModelStateIsInvalid" computerName="HEPHAESTUS" duration="00:00:00.0003647" startTime="2010-07-03T18:27:57.6398000-04:00" endTime="2010-07-03T18:27:57.6438000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5da855ef-053e-4477-b236-d60dacb4a152">
+    </UnitTestResult>
+    <UnitTestResult executionId="4610e64b-e7a7-4abf-9ac7-bfedffcee313" testId="4e51f382-7876-2b5a-e0b0-e40cf8bc7437" testName="ChangePassword_Post_ReturnsViewIfModelStateIsInvalid" computerName="HEPHAESTUS" duration="00:00:00.0003976" startTime="2010-07-03T18:27:57.6438000-04:00" endTime="2010-07-03T18:27:57.6478000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4610e64b-e7a7-4abf-9ac7-bfedffcee313">
+    </UnitTestResult>
+    <UnitTestResult executionId="b40e1a3a-941a-42d8-a096-0958d83c904c" testId="5a504ee4-8fc5-23ee-348d-a1086d7bfa51" testName="LogOn_Post_ReturnsRedirectOnSuccess_WithoutReturnUrl" computerName="HEPHAESTUS" duration="00:00:00.0004057" startTime="2010-07-03T18:27:57.6488000-04:00" endTime="2010-07-03T18:27:57.6518000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b40e1a3a-941a-42d8-a096-0958d83c904c">
+    </UnitTestResult>
+    <UnitTestResult executionId="ec72c945-eb5b-47eb-9b6c-c7599311ab01" testId="60fe42db-d2b8-d0e4-6ed1-3bb0d3e16bf6" testName="Register_Post_ReturnsRedirectOnSuccess" computerName="HEPHAESTUS" duration="00:00:00.0007393" startTime="2010-07-03T18:27:57.6528000-04:00" endTime="2010-07-03T18:27:57.6568000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec72c945-eb5b-47eb-9b6c-c7599311ab01">
+    </UnitTestResult>
+    <UnitTestResult executionId="d3393484-9195-460b-abee-30a30bb42ae4" testId="8520eb5f-e007-0f7e-41e9-f5ed682d7c18" testName="Index" computerName="HEPHAESTUS" duration="00:00:00.0005836" startTime="2010-07-03T18:27:57.6578000-04:00" endTime="2010-07-03T18:27:57.6608000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3393484-9195-460b-abee-30a30bb42ae4">
+    </UnitTestResult>
+    <UnitTestResult executionId="6139dcaa-f309-4a3f-8c25-62e1040abf0c" testId="b09f4ca6-7aac-bc97-ff67-c4af994f40ad" testName="ChangePasswordSuccess_ReturnsView" computerName="HEPHAESTUS" duration="00:00:00.0002794" startTime="2010-07-03T18:27:57.6618000-04:00" endTime="2010-07-03T18:27:57.6648000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6139dcaa-f309-4a3f-8c25-62e1040abf0c">
+    </UnitTestResult>
+    <UnitTestResult executionId="db2a214a-25f9-4381-92ab-ebba46e6f03d" testId="baa75b7e-36d4-30f6-82de-2985bc091141" testName="Register_Post_ReturnsViewIfRegistrationFails" computerName="HEPHAESTUS" duration="00:00:00.0006182" startTime="2010-07-03T18:27:57.6658000-04:00" endTime="2010-07-03T18:27:57.6688000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db2a214a-25f9-4381-92ab-ebba46e6f03d">
+    </UnitTestResult>
+    <UnitTestResult executionId="afebfbd9-8707-46dc-b792-2098a570deeb" testId="c52418e2-9ce8-1eaa-d4aa-f63deadc8c30" testName="LogOn_Get_ReturnsView" computerName="HEPHAESTUS" duration="00:00:00.0003007" startTime="2010-07-03T18:27:57.6698000-04:00" endTime="2010-07-03T18:27:57.6728000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afebfbd9-8707-46dc-b792-2098a570deeb">
+    </UnitTestResult>
+    <UnitTestResult executionId="0e607590-21d9-4dad-8367-29a8e913011b" testId="d5f5cd1e-a4d6-77bf-7d95-ff6459d0dbde" testName="About" computerName="HEPHAESTUS" duration="00:00:00.0002636" startTime="2010-07-03T18:27:57.6738000-04:00" endTime="2010-07-03T18:27:57.6768000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e607590-21d9-4dad-8367-29a8e913011b">
+    </UnitTestResult>
+    <UnitTestResult executionId="81c962e2-7754-4878-bdde-26c98f46662b" testId="d7c029f2-348b-7dfd-caba-6b5b3c12860e" testName="ChangePassword_Get_ReturnsView" computerName="HEPHAESTUS" duration="00:00:00.0004364" startTime="2010-07-03T18:27:57.6778000-04:00" endTime="2010-07-03T18:27:57.6808000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81c962e2-7754-4878-bdde-26c98f46662b">
+    </UnitTestResult>
+    <UnitTestResult executionId="668b9ba8-6511-49cc-97a3-03995ef1b85e" testId="df857051-2a3f-3e8c-6b8a-ce9466b8746c" testName="LogOn_Post_ReturnsViewIfValidateUserFails" computerName="HEPHAESTUS" duration="00:00:00.0004390" startTime="2010-07-03T18:27:57.6818000-04:00" endTime="2010-07-03T18:27:57.6848000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="668b9ba8-6511-49cc-97a3-03995ef1b85e">
+    </UnitTestResult>
+    <UnitTestResult executionId="88b9943a-7bec-4e4c-917c-7ad2ce94e500" testId="e4ade4d7-5c26-34af-3cc9-9c5bafb2097c" testName="ChangePassword_Post_ReturnsRedirectOnSuccess" computerName="HEPHAESTUS" duration="00:00:00.0004637" startTime="2010-07-03T18:27:57.6858000-04:00" endTime="2010-07-03T18:27:57.6888000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88b9943a-7bec-4e4c-917c-7ad2ce94e500">
+    </UnitTestResult>
+  </Results>
+</TestRun>

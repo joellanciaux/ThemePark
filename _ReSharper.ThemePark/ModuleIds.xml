@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="E81C0D86-E7B8-42FC-A6B5-39187E120E16" ModuleId="ColoMath" />
+  <Module PersistentId="448512DC-3118-4242-9BB0-5F5252BD7F14" ModuleId="ThemePark.Tests" />
+  <Module PersistentId="F95F8856-E412-4ACB-9CB6-046D47F88EC6" ModuleId="ThemePark" />
+</Modules>

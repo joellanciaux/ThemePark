@@ -1,0 +1,5 @@
+C:\projects\ThemePark\ThemePark\bin\ThemePark.dll
+C:\projects\ThemePark\ThemePark\bin\ThemePark.pdb
+C:\projects\ThemePark\ThemePark\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\ThemePark\ThemePark\obj\Debug\ThemePark.dll
+C:\projects\ThemePark\ThemePark\obj\Debug\ThemePark.pdb

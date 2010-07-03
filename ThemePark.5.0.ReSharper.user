@@ -1,0 +1,65 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="var" priority="2" />
+      <Item value="blah" priority="1" />
+      <Item value="int" priority="1" />
+      <Item value="angle" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="941" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="5827" fromTop="15" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="5623" fromTop="12" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="5499" fromTop="10" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="6061" fromTop="18" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="5471" fromTop="27" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="4037" fromTop="13" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="4922" fromTop="12" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="5345" fromTop="24" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="6656" fromTop="34" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="3183" fromTop="19" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="2902" fromTop="24" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="2663" fromTop="16" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="2554" fromTop="13" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="2419" fromTop="8" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="2064" fromTop="12" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="1949" fromTop="8" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="3724" fromTop="16" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="4922" fromTop="16" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="1945" fromTop="12" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="1592" fromTop="7" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="1365" fromTop="6" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="1035" fromTop="17" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="2296" fromTop="9" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="2397" fromTop="12" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="1947" fromTop="18" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="668" fromTop="17" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="669" fromTop="17" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="591" fromTop="12" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="250" fromTop="7" />
+      <File id="E81C0D86-E7B8-42FC-A6B5-39187E120E16/f:ColorMath.cs" caret="1096" fromTop="12" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

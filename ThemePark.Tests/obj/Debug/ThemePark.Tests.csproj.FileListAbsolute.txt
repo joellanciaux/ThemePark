@@ -1,0 +1,12 @@
+C:\projects\ThemePark\ThemePark.Tests\bin\Debug\ThemePark.Tests.dll.config
+C:\projects\ThemePark\ThemePark.Tests\bin\Debug\ThemePark.Tests.dll
+C:\projects\ThemePark\ThemePark.Tests\bin\Debug\ThemePark.Tests.pdb
+C:\projects\ThemePark\ThemePark.Tests\bin\Debug\ThemePark.dll
+C:\projects\ThemePark\ThemePark.Tests\bin\Debug\ThemePark.pdb
+C:\projects\ThemePark\ThemePark.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\ThemePark\ThemePark.Tests\obj\Debug\ThemePark.Tests.dll
+C:\projects\ThemePark\ThemePark.Tests\obj\Debug\ThemePark.Tests.pdb
+C:\projects\ThemePark\ThemePark.Tests\bin\Debug\nunit.framework.dll
+C:\projects\ThemePark\ThemePark.Tests\bin\Debug\TechTalk.SpecFlow.dll
+C:\projects\ThemePark\ThemePark.Tests\bin\Debug\ColoMath.dll
+C:\projects\ThemePark\ThemePark.Tests\bin\Debug\ColoMath.pdb

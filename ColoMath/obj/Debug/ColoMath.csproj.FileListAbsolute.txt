@@ -1,0 +1,5 @@
+C:\projects\ThemePark\ColoMath\bin\Debug\ColoMath.dll
+C:\projects\ThemePark\ColoMath\bin\Debug\ColoMath.pdb
+C:\projects\ThemePark\ColoMath\obj\Debug\ResolveAssemblyReference.cache
+C:\projects\ThemePark\ColoMath\obj\Debug\ColoMath.dll
+C:\projects\ThemePark\ColoMath\obj\Debug\ColoMath.pdb
